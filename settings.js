@@ -11,8 +11,8 @@ MODE: process.env.MODE || "public",  //public | private | inbox | group
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94763497971",
 DEV: process.env.DEV || "94763497971",
 LANG: process.env.LANG || "EN", // EN | SI
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*_`ᴀᴜᴛᴏ ꜱᴛᴀᴛᴜꜱ ᴊᴜꜱᴛ ɴᴏᴡ ꜱᴇᴇɴ ʙʏ ʟᴀʀᴀ ᴍᴅ`_* 💃🏻",
 AUTO_BIO: process.env.AUTO_BIO || "true",
